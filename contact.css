@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+nav{
+	display: flex;
+	padding: 2% 6%; 
+	justify-content: space-between;
+    align-items: center;
+}
+nav img {
+	width: 150px;	 
+}
+.nav-links{
+	flex: 1;
+	text-align: right;
+}
+.nav-links ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 8px 12px;
+	position: relative;
+}
+.nav-links ul li a{
+	color: #fff;
+	text-decoration: none;
+
+}
+.nav-links ul li::after{
+	content: '';
+	width: 0%;
+	height: 2px;
+	background: #f44336;
+	display: block;
+	margin: auto;
+	transition: 0.5;
+}
+.nav-links ul li:hover::after{
+	width: 100%;
+}
+.orari{
+	width: 80%;
+	margin: auto;
+	text-align: center;
+}
+p{
+	color: #777;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 22px;
+	padding: 10px;
+}
+
+.orari1{
+    text-align: center;
+    font-size: 225%;
+    color: rgb(126, 38, 126);
+    font-size: 36px;
+	font-weight: 600;
+}
+.tabelat{
+	display: flex;
+	justify-content: space-between;
+	 
+}
+.tabelat1{
+	border-radius: 10px;
+    margin-bottom: 5%;
+	padding: 50px 30px;
+	box-sizing: border-box; 
+}
+.tabela2{
+    border-color: yellow;
+    width: 150%;
+    height: 200px;
+    transition: 0.5s;
+}
+.tabela2:hover{ 
+	box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+
+.forma{
+    text-align: left;
+}
+.forma [type=text]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
