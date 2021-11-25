@@ -79,8 +79,8 @@ p{
 }
 .tabela2{
     border-color: yellow;
-    width: 150%;
-    height: 200px;
+    width: 155%;
+    height: 250px;
     transition: 0.5s;
 }
 .tabela2:hover{ 
@@ -90,11 +90,40 @@ p{
 
 .forma{
     text-align: left;
+    width: 150%;
+    height: 250px;
+    background-color: rgb(233, 198, 153);
+    border-radius: 12px;
+    margin-top: 0px;
 }
-.forma [type=text]{
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
+
+.forma1{
+    margin-top: 3%;
+    margin-left: 3%;
+    font-size: 15px;
+   
+}
+.forma h3 {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    
+
+}
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px;
+    border: 1px solid #ccc; 
     box-sizing: border-box;
     border-radius: 4px;
-}
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  ::placeholder{
+      text-align: left;
+      font-size: 15px;
+  }
+  input[type = submit]{
+    font-size: 20px;
+  }
